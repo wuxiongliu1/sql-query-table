@@ -8,12 +8,13 @@ by use this plugin, you can query sql to query table .
 
 For example, I have a table in one file . the table looks like below. 
 
+~~~markdown
 |       date        | pay | income |
 |:-----------------:|:----:| ---- |
 | 2025-01-01 星期三 |  27  | 100  |
 | 2025-01-01 星期三 |  34  | 200  |
-
 ^money
+~~~
 
 
 now if I want to know this year total pay and total income and money left, I can use sql to query this table.
