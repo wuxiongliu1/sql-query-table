@@ -18,7 +18,8 @@ For example, I have a table in one file . the table looks like below.
 
 now if I want to know this year total pay and total income and money left, I can use sql to query this table.
 
-```table-sql
+
+> ```table-sql
 sql: 
 - select  sum(`income`) as `total_income`,sum(`pay`) as `total_pay`, sum(`income`)- sum(`pay`) as `left` from ?
 table: money
