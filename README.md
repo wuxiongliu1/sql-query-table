@@ -25,7 +25,7 @@ sql:
 table: money
 tablePath: repo/table_dir
 ```
-```
+
 
 
 sql : write sql place
