@@ -18,18 +18,21 @@ I have a table like this
 
 now you can use code block 
 
+```
 ```table-sql
 sql: 
 - select  sum(`收入`) as `总收入`,sum(`支出`) as `总支出`, sum(`收入`)- sum(`支出`) as `结余` from ?
 table: money
 tablePath: repo/table_dir
 ```
+```
+
 
 sql : write sql place
 
 table: table you want to query
 
-tablePath: the table exists dir path or file path
+tablePath: the table exists dir path or file path. 
 
 
 when in view mode, the sql result will render to table view
